@@ -1,0 +1,81 @@
+:root {
+  --dblue: #05386b;
+  --lblue: #edf5e1;
+}
+
+a {
+text-decoration: none;
+color: var(--lblue);
+font-size: 18px;
+padding-left: 60px;
+padding-right: 60px;
+margin-left: 20px;
+}
+
+.nav {
+  background-color: var(--dblue);
+  color: var(--lblue);
+  height: 30px;
+  text-align: right;
+  font-family: cursive; 
+}
+
+body {
+  background-color: var(--lblue);
+}
+
+h1 {
+  color: var(--dblue);
+  text-shadow: 1px 1px 3px black;
+  font-size: 30px;}
+
+h2 {
+  color: var(--dblue);
+  text-shadow: 1px 1px 3px black;
+  font-weight: 400;
+}
+
+p, ol, table{
+  color: var(--dblue);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-size: 20px;
+}
+
+table, th, td {
+  border: 1px solid var(--dblue);
+  margin: 15px;
+  padding: 3px;
+}
+footer {
+  background-color: var(--dblue);
+  padding: 10px;
+}
+
+#contact {
+  color: var(--lblue);
+  font-family: cursive;
+  font-size: 30px;
+  text-shadow: 1px 1px 3px white;
+}
+
+.center {
+  margin: auto;
+  width: 20%;
+}
+
+label {
+  color: var(--lblue);
+  font-family: cursive;
+  font-weight:550;
+}
+
+input, textarea, option, select {
+  color: var(--dblue);
+  font-weight: 900;
+  font-family: cursive;
+}
+
+input[type="submit"], input[type="text"], input[type="email"], textarea, select{
+  border: 3px solid var(--dblue);
+  border-radius: 10px;
+}

@@ -1,0 +1,66 @@
+:root{
+  --dblue: #05386b;
+  --lblue: #edf5e1;
+}
+
+body {
+  background-color: var(--dblue)
+}
+
+nav {
+  background-color: var(--lblue);
+  height: 30px;
+}
+
+a {
+  color: var(--dblue);
+  font-family: cursive;
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+h1 {
+color: var(--lblue);
+text-align: center;
+font-family: cursive;
+font-size: 40px;
+text-shadow: 3px 3px 0px black;
+}
+
+img {
+  width: 350px;
+  border-radius: 100px;
+  border: 2px solid var(--lblue);
+}
+
+table {
+  float: right;
+  width: 250px;
+  height: 400px;
+  font-size: 18px;
+  text-align: center;
+  color:white;
+  background-color: var(--lblue);
+  font-family: Helvetica, sans-serif;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+td { 
+  border-radius: 100px;
+  width: 100px;
+  border: 3px solid var(--lblue);
+  background-color: var(--dblue);
+  margin: auto;
+  padding: 10px;
+}
+
+.square {
+  text-align: right;
+  border-radius: 3px;
+  font-size: 40px;
+  border-top: 20px solid var(--lblue);
+  border-bottom: 20px solid var(--lblue);
+}
